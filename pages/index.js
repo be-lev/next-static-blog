@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         <title>Dev blog</title>
       </Head>
       <div className="posts">
-          <h1>צי'קי שלי קמה שאני אוהב ומתגעגע אלייך :) תכף אני חוזר הביתה</h1>
+          <h1>צי'קי שלי כמה שאני אוהב ומתגעגע אלייך :) תכף אני חוזר הביתה</h1>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
